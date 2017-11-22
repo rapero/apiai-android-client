@@ -1,0 +1,42 @@
+{
+  "description": "Allow your app to engage in small talk about a variety of topics.",
+  "language": "ru",
+  "shortDescription": "Small talk topics to help make your bot more personable",
+  "examples": "User: Привет!\nUser: Как дела?\nUser: Спасибо!\nUser: Не за что.\nUser: Как поживаешь?\nUser: Мне скучно.\nUser: Я шучу.\nUser: Здорово!\nUser: Кто ты?\nUser: Сколько тебе лет?\nUser: Ты умная.\nUser: У тебя есть хобби?",
+  "displayName": "Small Talk",
+  "activeAssistantAgents": [],
+  "googleAssistant": {
+    "googleAssistantCompatible": false,
+    "project": "small-talk-1-92a46",
+    "welcomeIntentSignInRequired": true,
+    "startIntents": [
+      {
+        "intentId": "8b1019f3-1c78-4d83-8881-6426ae7340c1",
+        "signInRequired": false
+      },
+      {
+        "intentId": "87a993ce-c9da-4fd9-a77b-9efe03736ce2",
+        "signInRequired": false
+      }
+    ],
+    "systemIntents": [],
+    "endIntentIds": [],
+    "oAuthLinking": {
+      "required": false,
+      "grantType": "AUTH_CODE_GRANT"
+    },
+    "voiceType": "MALE_1",
+    "capabilities": [],
+    "protocolVersion": "V2"
+  },
+  "defaultTimezone": "Asia/Dubai",
+  "webhook": {
+    "available": false,
+    "useForDomains": false,
+    "cloudFunctionsEnabled": false,
+    "cloudFunctionsInitialized": false
+  },
+  "isPrivate": true,
+  "customClassifierMode": "use.instead",
+  "mlMinConfidence": 0.3
+}
